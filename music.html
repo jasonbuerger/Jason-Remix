@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Musik von Jason Remix</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Montserrat', sans-serif;
+            background-color: #1d1d1d;
+            color: #f0f0f0;
+        }
+
+        header {
+            background-color: #282828;
+            padding: 10px 20px;
+            text-align: center;
+        }
+
+        header nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        header nav ul li {
+            display: inline;
+            margin: 0 20px;
+        }
+
+        header nav ul li a {
+            color: #00bcd4;
+            text-decoration: none;
+            font-weight: 700;
+            transition: color 0.3s ease;
+        }
+
+        header nav ul li a:hover {
+            color: #ff4081;
+        }
+
+        #music {
+            padding: 40px 20px;
+            max-width: 800px;
+            margin: auto;
+            text-align: left;
+        }
+
+        #music h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+
+        #music .track {
+            margin-bottom: 20px;
+            padding: 15px;
+            background-color: #282828;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+        }
+
+        #music .track h2 {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+
+        #music .track p {
+            font-size: 1.2em;
+        }
+
+        .stream-count {
+            font-weight: bold;
+        }
+
+        .no-streams {
+            color: red; /* Rote Farbe für Tracks ohne Streaming-Zahl */
+        }
+
+        .upcoming {
+            margin-top: 40px;
+            padding: 15px;
+            background-color: #282828;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+        }
+
+        .upcoming h2 {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #282828;
+            color: #f0f0f0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Startseite</a></li>
+                <li><a href="about.html">Über uns</a></li>
+                <li><a href="music.html">Musik</a></li>
+                <li><a href="#contact">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="music">
+        <h1>Musik von Jason Remix</h1>
+
+        <div class="track">
+            <h2>Sound of Silence</h2>
+            <p class="stream-count">Streaming-Zahl: <span>109</span></p> <!-- Korrigierte Streaming-Zahl -->
+        </div>
+
+        <div class="track">
+            <h2>Take On Me</h2>
+            <p class="stream-count no-streams">Streaming-Zahl: Noch keine Streams</p>
+        </div>
+
+        <div class="track">
+            <h2>Die Geisterbahn</h2>
+            <p class="stream-count no-streams">Streaming-Zahl: Noch keine Streams</p>
+        </div>
+
+        <div class="upcoming">
+            <h2>Bevorstehende Songs</h2>
+            <p>Mister Saxobeat mit Alexandra Stan</p>
+            <p>Weitere spannende Releases sind in Planung, um die Musikszene zu bereichern!</p>
+        </div>
+
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Jason Remix. Alle Rechte vorbehalten.</p>
+    </footer>
+</body>
+</html>
